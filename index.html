@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App with javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="search-box">
+            <input class="input-box" type="text " placeholder="Enter your loacation">
+            <button id="searchBtn" class="fa-solid fa-magnifying-glass"></button>
+          </div>
+        </div>
+          <div class="weather-body">
+            <img class="weather-img" src="cloud.png" alt="weather image">
+            <div class="weather-box">
+                <p class="tempreture">0 <sup>°C</sup></p>
+                <p class="description">Light Rain</p>
+            </div>
+            <div class="weather-detail">
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidityval">45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+            <div class="wind">
+                <div class="humidity">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">12km/hr</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
